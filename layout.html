@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #main{
+            /*position: relative;*/
+            /*height: 2000px;*/
+            /*width: 100%;*/
+        }
+
+        #head{
+            position: fixed;
+            top: 0px;
+            border: black solid 1px;
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        #head-link{
+            position: fixed;
+            top: 110px;
+            width: 100%;
+            height: 50px;
+            border: solid 1px black;
+            margin-bottom: 10px;
+        }
+
+        #left {
+            position: fixed;
+            top: 170px;
+            border: black solid 1px;
+            width: 200px;
+            height: 680px;
+            float: left;
+            margin-bottom: 10px;
+        }
+
+        #content{
+            /*position: absolute;*/
+            position: relative;
+            top: 160px;
+            left: 220px;
+            height: 680px;
+            width: 970px;
+            border: black solid 1px;
+        }
+
+        #right{
+            position: fixed;
+            top: 170px;
+            float: left;
+            right: 0px;
+            border: black solid 1px;
+            height: 680px;
+            width: 200px;
+        }
+
+        #footer{
+            position: fixed;
+            bottom: 0px;
+            height: 50px;
+            width: 100%;
+            border: black solid 1px;
+            margin-top: 5px;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+<div id="main">
+    <div id="head"></div>
+    <div id="head-link"></div>
+    <div id="left"></div>
+    <div id="content"></div>
+    <div id="right"></div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
